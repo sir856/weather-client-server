@@ -1,0 +1,34 @@
+.loader {
+    margin-bottom: 20px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header{
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+b {
+    font-size: 20pt;
+}
+
+.item-icon {
+    height: 50px;
+}
+
+.itemsButton {
+    background-color: dimgray;
+    color: cornsilk;
+    border: 0;
+    margin-left: 15px;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+}

@@ -17,34 +17,17 @@ router.route('/')
     })
     .post((request, response) => {
         let name = request.query.city;
-        data.getByName(name, (res) => {
-            if (res) {
-                if (res.status !== 404) {
-                    model.addCity(name, (err, ans) => {
-                        if (err) {
-                            if (err.code === "ER_DUP_ENTRY") {
-                                response.status(400);
-                                response.send();
-                            } else {
-                                response.status(500);
-                                response.send();
-                            }
-                        } else {
-                            if (res.status) {
-                                response.status(res.status);
-                                response.send();
-                            }
-                            else {
-                                response.send(res)
-                            }
-                        }
-                    });
+        console.log(request.query);
+        model.addCity(name, (err, ans) => {
+            if (err) {
+                if (err.code === "ER_DUP_ENTRY") {
+                    response.status(400);
+                    response.send();
                 } else {
-                    response.status(404);
+                    response.status(500);
                     response.send();
                 }
             } else {
-                response.status(504);
                 response.send();
             }
         });

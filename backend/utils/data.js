@@ -7,7 +7,9 @@ exports.getByName = (name, callback, result) => {
             lang: "ru",
             units: "metric",
             appid: "3494b8f1c8f596aee028c113d9cf5e78"
-        }
+        },
+        timeout: 2000
+
     })
         .then(res => {
             callback(res.data, result);
@@ -25,7 +27,8 @@ exports.getByCoordinates = (coordinates, callback, result) => {
             lang: "ru",
             units: "metric",
             appid: "3494b8f1c8f596aee028c113d9cf5e78"
-        }
+        },
+        timeout: 2000
     })
         .then(res => {
             callback(res.data, result);
@@ -47,7 +50,7 @@ exports.callback = (response, result) => {
             }
         }
         else {
-                result.send(response)
+            result.send(response)
         }
     } else {
         result.status(504);

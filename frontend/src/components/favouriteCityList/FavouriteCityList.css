@@ -1,0 +1,43 @@
+.container {
+    width: 830px;
+    margin: 30px auto;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+.part {
+    font-size: 20pt;
+}
+
+.itemsButton {
+    background-color: dimgray;
+    color: cornsilk;
+    border: 0;
+    margin-left: 15px;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+}
+
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+input {
+    height: 30px;
+    width: 250px;
+    padding-left: 20px;
+    background-color: lightgrey;
+    border: none;
+    color: dimgray;
+}

@@ -1,0 +1,139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`City rendering 1`] = `
+<div
+  className="weather_here_item"
+>
+  <div
+    className="about"
+  >
+    <b
+      className="name"
+    >
+      name
+    </b>
+    <span
+      className="temp"
+    >
+      276.91 ℃
+    </span>
+    <img
+      alt="img"
+      className="icon"
+      src="//openweathermap.org/img/wn/04d@2x.png"
+    />
+  </div>
+  <div
+    className="entry"
+  >
+    <ul>
+      <li>
+        <span>
+          Ветер
+        </span>
+         
+        <em>
+          6
+           м/c
+        </em>
+      </li>
+      <li>
+        <span>
+          Облачность
+        </span>
+         
+        <em>
+          overcast clouds
+        </em>
+      </li>
+      <li>
+        <span>
+          Давление
+        </span>
+         
+        <em>
+          1016
+           гПа
+        </em>
+      </li>
+      <li>
+        <span>
+          Влажность
+        </span>
+         
+        <em>
+          80
+           %
+        </em>
+      </li>
+      <li>
+        <span>
+          Координаты
+        </span>
+         
+        <em>
+          [
+          76
+          , 
+          123
+          ]
+        </em>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`City rendering loading 1`] = `
+<div
+  className="loader"
+>
+  <b>
+    Загрузка
+  </b>
+  <img
+    alt=""
+    className="loading-icon"
+    src=""
+  />
+</div>
+`;
+
+exports[`City rendering network error 1`] = `
+<div
+  className="loader"
+>
+  <b>
+    Ошибка
+  </b>
+  <i>
+    Проблемы с интернет соединением
+  </i>
+</div>
+`;
+
+exports[`City rendering not found error 1`] = `
+<div
+  className="loader"
+>
+  <b>
+    Ошибка
+  </b>
+  <i>
+    Город не найден
+  </i>
+</div>
+`;
+
+exports[`City rendering server error 1`] = `
+<div
+  className="loader"
+>
+  <b>
+    Ошибка
+  </b>
+  <i>
+    Проблемы с сервером
+  </i>
+</div>
+`;

@@ -1,0 +1,129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Favourite city rendering 1`] = `
+<div
+  className="loader"
+>
+  <div
+    className="header"
+  >
+    <b>
+      omsk
+    </b>
+    <span
+      className="item-temp"
+    >
+      276.91 ℃
+    </span>
+    <img
+      alt="img"
+      className="item-icon"
+      src="//openweathermap.org/img/wn/04d@2x.png"
+    />
+    <button
+      className="itemsButton"
+      id="omsk"
+      onClick={[Function]}
+    >
+      x
+    </button>
+  </div>
+  <div
+    className="item-entry"
+  >
+    <ul>
+      <li>
+        <span>
+          Ветер
+        </span>
+         
+        <em>
+          6
+           м/c
+        </em>
+      </li>
+      <li>
+        <span>
+          Облачность
+        </span>
+         
+        <em>
+          overcast clouds
+        </em>
+      </li>
+      <li>
+        <span>
+          Давление
+        </span>
+         
+        <em>
+          1016
+           гПа
+        </em>
+      </li>
+      <li>
+        <span>
+          Влажность
+        </span>
+         
+        <em>
+          80
+           %
+        </em>
+      </li>
+      <li>
+        <span>
+          Координаты
+        </span>
+         
+        <em>
+          [
+          30.32
+          , 
+          59.94
+          ]
+        </em>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`Favourite city rendering loading 1`] = `
+<div
+  className="loader"
+>
+  <b>
+    Загрузка
+  </b>
+  <img
+    alt=""
+    className="loading-icon"
+    src=""
+  />
+</div>
+`;
+
+exports[`Favourite city rendering server error 1`] = `
+<div
+  className="loader"
+>
+  <div
+    className="header"
+  >
+    <b>
+      omsk
+    </b>
+    <button
+      className="itemsButton"
+      id="omsk"
+      onClick={[Function]}
+    >
+      x
+    </button>
+  </div>
+  <i>
+    Проблемы с сервером
+  </i>
+</div>
+`;

@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Error rendering 1`] = `
+<div
+  className="loader"
+>
+  <b>
+    Ошибка
+  </b>
+  <i>
+    message
+  </i>
+</div>
+`;
+
+exports[`city error rendering 1`] = `
+<div
+  className="loader"
+>
+  <div
+    className="header"
+  >
+    <b>
+      name
+    </b>
+    <button
+      className="itemsButton"
+      id="name"
+      onClick={[Function]}
+    >
+      x
+    </button>
+  </div>
+  <i>
+    message
+  </i>
+</div>
+`;

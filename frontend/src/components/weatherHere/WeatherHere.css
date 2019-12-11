@@ -1,0 +1,30 @@
+.weather_here {
+    margin: 0 auto;
+    display: flex;
+    width: 830px;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+.button {
+    background-color: darkgrey;
+    border: 1px solid darkgrey;
+    color: lightgrey;
+    border-radius: 6px;
+    width: 200px;
+    height: 40px;
+}
+
+.part {
+    font-size: 20pt;
+}

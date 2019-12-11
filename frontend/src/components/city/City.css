@@ -1,0 +1,34 @@
+.about {
+    display: grid;
+    width: 380px;
+    align-items: center;
+    justify-content: space-between;
+    grid-template-areas:
+            "name name"
+            "icon temp";
+}
+
+.weather_here_item {
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.name {
+    grid-area: name;
+}
+
+.temp{
+    font-size: 40pt;
+    grid-area: temp;
+}
+
+.icon{
+    grid-area: icon;
+}
+
+b {
+    font-size: 20pt;
+}

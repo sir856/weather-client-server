@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loader rendering 1`] = `
+<ul>
+  <li>
+    <span>
+      Ветер
+    </span>
+     
+    <em>
+      6
+       м/c
+    </em>
+  </li>
+  <li>
+    <span>
+      Облачность
+    </span>
+     
+    <em>
+      overcast clouds
+    </em>
+  </li>
+  <li>
+    <span>
+      Давление
+    </span>
+     
+    <em>
+      1016
+       гПа
+    </em>
+  </li>
+  <li>
+    <span>
+      Влажность
+    </span>
+     
+    <em>
+      80
+       %
+    </em>
+  </li>
+  <li>
+    <span>
+      Координаты
+    </span>
+     
+    <em>
+      [
+      30.32
+      , 
+      59.94
+      ]
+    </em>
+  </li>
+</ul>
+`;

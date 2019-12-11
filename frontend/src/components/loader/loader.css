@@ -1,0 +1,16 @@
+.loader {
+    margin-bottom: 20px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+b {
+    font-size: 20pt;
+}
+
+.loading-icon {
+    margin-top: 30px;
+    width: 50%;
+}
